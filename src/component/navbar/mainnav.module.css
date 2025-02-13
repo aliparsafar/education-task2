@@ -1,0 +1,36 @@
+.mainnav {
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fff;
+}
+
+.mainnav ul {
+    display: flex;
+ 
+}
+
+.mainnav ul li {
+   list-style: none;
+}
+
+.mainnav ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+    padding: 0px 15px;
+}
+
+.mainnav ul li:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #262626;
+    top: 0;
+    
+}
