@@ -1,5 +1,6 @@
 import { Button } from "./button";
 import { Card } from "./card";
+import { Gallerybox } from "./gallerybox";
 import { Gallerylink } from "./gallerylink";
 import styles from "./mainsec.module.css"
 import { Servicebox } from "./servicebox";
@@ -18,7 +19,16 @@ export function Mainsec(){
                 <p>At Little Learners Academy, we strive to cultivate a love for learning and equip children with essential skills for their future success. Our academic programs cover a wide range of subjects, allowing students to develop a strong foundation and discover their interests. Some key areas of learning include</p>
                 <Servicebox />
             </div>
-           
+            <div className={styles.featuressec}>
+              <Button/>
+              <h2>Our Rooms Gallery</h2>
+              <p>
+                 Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.
+              </p>
+              
+              <Gallerylink />
+              <Gallerybox />
+           </div>
         </section>
     )
 }
