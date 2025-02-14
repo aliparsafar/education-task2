@@ -1,3 +1,4 @@
+
 .mainnav {
     display: flex;
     margin: 0 50px;
@@ -7,14 +8,18 @@
     border-radius: 8px;
     position: relative;
     background-color: #fff;
+    
+    
 }
 
 .mainnav ul {
     display: flex;
- 
+    gap: 30px;
+   
 }
 
 .mainnav ul li {
+    
    list-style: none;
 }
 
@@ -33,4 +38,7 @@
     background: #262626;
     top: 0;
     
+}
+.mainnav img{
+    width: 200px;
 }
