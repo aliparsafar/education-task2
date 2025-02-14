@@ -27,3 +27,8 @@
     color: #4C4C4D;
     margin-bottom: 30px;
 }
+@media screen and (max-width:767px) {
+    .servicesbox {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

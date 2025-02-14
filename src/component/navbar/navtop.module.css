@@ -15,3 +15,11 @@
     width: 20px;
     height: 20px;
 }
+@media screen and (max-width:767px) {
+    .navtop {
+        width: 350px;
+        margin: 18px 20px;
+        background-image: url("src/assets/top-banner.png");
+        background-size: cover !important;
+    }
+}

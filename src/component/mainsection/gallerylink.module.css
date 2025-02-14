@@ -11,3 +11,12 @@
     border: 2px solid #333333;
     border-radius: 8px;
 }
+@media screen and (max-width:767px) {
+    .gallerylink {
+        overflow-x: auto;
+        justify-content: normal;
+    }
+    .gallerylink button {
+        font-size: 14px;
+    }
+}
